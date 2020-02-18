@@ -1,16 +1,17 @@
 *{
+    
 
 }
 
 body{
-    max-width: 1020px;
+    width: 1020px;
     margin: 0 auto;
+    padding-top:10px;
 
 }
 
 header {
-    /* max-height: 90px; */
-    height: 96px;
+    height: 100px;
     font-family: 'Lato', sans-serif;
     background-color: #2d303a;
     display: flex;
@@ -18,9 +19,16 @@ header {
 
 }
 
+.span{
+    width: 4px;
+    height: 4px;
+    border-radius: 2px;
+    color: #6b5756;
+    }
+
 .headerSection{
     width: 1020px;
-    height: 90px;
+    height: 94px;
     display: flex;
     flex-direction: row;
     /* border: 1px solid red; */
@@ -34,12 +42,18 @@ header > section{
 
 #mainH1{
     width: 450px;
+    
 
 }
 
 #mainH1 > h1{
-    padding:10px 0px 0px 50px;
-    color: white;
+    padding:38px 0px 38px 45px;
+    font-size: 25px;
+    line-height: 6px;
+    color: #ffffff;
+    font-family: "Lato";
+    font-weight: 700;
+    
 }
 
 .nav{
@@ -57,21 +71,24 @@ nav > ul {
    align-items: center;
    font-size: 0.8rem;
    color: white;
+   font-size: 12px;
+    line-height: 6px;
+    font-family: "Lato";
+    font-weight: 700;
    
     
 }
 
 #headerBottom{
     width: 1020px;
-    height: 6px;
-    display: flex;
-    /* align-self: flex-end; */
-    /* border: 2px solid green; */
+    height: 8px;
+    background-color: #323746;
+    
 }
 
 main{
     /* border: 1px solid black; */
-    height: 1000px;
+    width: 1020px;
     overflow: hidden;
 
 }
@@ -104,7 +121,7 @@ article{
 
 #telefonOne{
     height: 455px;
-    width: 215px;
+    width: 250px;
     padding: 53px 97px 0px 50px;
 
 }
@@ -121,6 +138,7 @@ article{
 #chevRight{
     cursor: pointer;
     padding: 279px 0px 0px 0px;
+    transform: rotateY(180deg);
 
 }
 
