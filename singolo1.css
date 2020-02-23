@@ -112,13 +112,13 @@ main{
 
 .services{
     width: 1020px;
-    height: 495px;
+    height: 500px;
     background-color: #f2f2f2;
     border-bottom: 6px solid #ffffff;
 }
 
 #ourServices {
-    padding: 42px 0px 0px 39px;
+    padding: 43px 0px 0px 40px;
 }
 
 #ourServices > h2{
@@ -130,7 +130,7 @@ main{
     text-align: left;
 }
 
-#ourServices >p {
+#ourServices > p {
     font-size: 17px;
     line-height: 30px;
     color: #767e9e;
@@ -139,22 +139,21 @@ main{
     text-align: left;
     width: 960px;
     height: 57px;
-    padding-top: 1px;
+    padding-top: 3px;
     letter-spacing: 0.4px;
 }
 
 .sixSection{
-    width:256px;
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
-    grid-column-gap: 18px;
-    grid-row-gap: 10px;
-    padding: 10px 46px 63px 39px;
+    grid-column-gap: 7px;
+    grid-row-gap: 3px;
+    padding: 13px 37px 63px 40px;
 }
 
 .sixSection > section{
-    width:296px;
-    height: 129px;
+    width: 312px;
+    height: 120px;
     display: grid;
     grid-template-columns: 59px 1fr;
     grid-column-gap: 16px;
@@ -166,7 +165,7 @@ main{
 }
 
 .info{
-    /* height: 90px; */
+   padding-left: 6px;
 
 }
 
@@ -179,21 +178,11 @@ main{
 }
 
 .info > p {
-    font-size: 11px;
+    font-size: 12px;
     line-height: 22px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
-    margin-bottom:20px;
-}
-
-#sectionChange{
-}
-
-#sectionChange > h3{
-
-}
-
-#sectionChange > p{
+    margin-top: -10px; 
 }
