@@ -1,0 +1,137 @@
+body{
+    width: 1020px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container{
+    width: 1020px;
+    height: 870px;
+    background-image: url(./assets/images/Bg2.png);
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746 ;
+  
+}
+
+.portfolio{
+    width: 920px;
+    margin: 0 auto;
+}
+
+.portfolioLogo{
+    
+
+}
+
+.portfolioLogo > h1{
+    color: #666d89;
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolioLogo > p {
+    width: 940px;
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+
+.buttons > button{
+    /* width: 93px;
+    height: 22px; */
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.images > img{
+    height: 187px;
+    width: 220px;
+}
+
+.containerTwo{
+    width: 1020px;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+}
+
+.aboutAs {
+    margin: 0 auto;
+    border-bottom: #ffffff;
+    width: 920px;
+    border: 1px solid black;
+}
+
+.aboutAs > section > h1{
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.aboutAs > section > p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
+}
+
+.sectionInfoByPeople{
+    height: 728px;
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sectionInfoByPeople > section {
+    width: 300px;
+    height: 440px;
+     
+}
+
+#fotoPeople{
+    height: 300px;
+    width: 300px;
+}
+
+.sectionInfoByPeople  h3 {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.sectionInfoByPeople p {
+    width: 300px;
+    height: 57px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}

@@ -149,6 +149,7 @@ main{
     display: grid;
     grid-template: 1fr 1fr / 1fr 1fr 1fr;
     grid-column-gap: 7px;
+    
     grid-row-gap: 3px;
     padding: 13px 37px 63px 40px;
 }
