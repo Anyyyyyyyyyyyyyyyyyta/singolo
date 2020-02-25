@@ -8,7 +8,7 @@ body{
 
 .container{
     width: 1020px;
-    height: 870px;
+    height: 863px;
     background-image: url(./assets/images/Bg2.png);
     background-color: #2d303a;
     border-bottom: 6px solid #323746 ;
@@ -16,8 +16,13 @@ body{
 }
 
 .portfolio{
-    width: 920px;
+    width: 940px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 44px;
+
 }
 
 .portfolioLogo{
@@ -36,6 +41,9 @@ body{
 }
 
 .portfolioLogo > p {
+    /* border: 1px solid black; */
+    margin-bottom: -16px;
+    padding-top: 2px;
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -46,25 +54,48 @@ body{
     text-align: left;
 }
 
+.buttons {
+    width: 290px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
 .buttons > button{
-    /* width: 93px;
-    height: 22px; */
-    border-radius: 5px;
-    background-color: #2d303a;
-    border: 1px solid #666d89;
     font-size: 12px;
-    line-height: 22px;
+    line-height: 18px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+
+    border-radius: 5px;
+    background-color: #2d303a;
+    border: 1px solid #666d89;
     transition-duration: 0.4s;
     cursor: pointer;
 }
 
+button:hover {
+    color: #dedede;
+}
+
+.images{
+    padding-top: 19px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+
 .images > img{
-    height: 187px;
     width: 220px;
+    height: 187px;
+    border-radius: 3px;
+    /* background-color: #464b5e; */
+    padding-bottom: 20px;
 }
 
 .containerTwo{
@@ -76,11 +107,11 @@ body{
 .aboutAs {
     margin: 0 auto;
     border-bottom: #ffffff;
-    width: 920px;
-    border: 1px solid black;
+    width: 940px;
 }
 
 .aboutAs > section > h1{
+    padding-top: 43px;
     font-size: 30px;
     line-height: 18px;
     color: #666d89;
@@ -90,6 +121,10 @@ body{
 }
 
 .aboutAs > section > p{
+    padding: 2px 0px 0px 1px;
+    
+    width: 940px;
+    height: 57px;
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
@@ -100,14 +135,16 @@ body{
 
 .sectionInfoByPeople{
     height: 728px;
-    width: 1020px;
+    width: 940px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .sectionInfoByPeople > section {
     width: 300px;
-    height: 440px;
+    height: 475px;
      
 }
 
