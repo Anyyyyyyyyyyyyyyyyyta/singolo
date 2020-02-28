@@ -3,7 +3,6 @@ body{
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-
 }
 
 .container{
@@ -12,7 +11,6 @@ body{
     background-image: url(./assets/images/Bg2.png);
     background-color: #2d303a;
     border-bottom: 6px solid #323746 ;
-  
 }
 
 .portfolio{
@@ -22,12 +20,6 @@ body{
     flex-direction: column;
     justify-content: start;
     padding-top: 44px;
-
-}
-
-.portfolioLogo{
-    
-
 }
 
 .portfolioLogo > h1{
@@ -41,7 +33,6 @@ body{
 }
 
 .portfolioLogo > p {
-    /* border: 1px solid black; */
     margin-bottom: -16px;
     padding-top: 2px;
     width: 940px;
@@ -59,7 +50,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 
 .buttons > button{
@@ -69,7 +59,6 @@ body{
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
-
     border-radius: 5px;
     background-color: #2d303a;
     border: 1px solid #666d89;
@@ -94,7 +83,6 @@ button:hover {
     width: 220px;
     height: 187px;
     border-radius: 3px;
-    /* background-color: #464b5e; */
     padding-bottom: 20px;
 }
 
@@ -123,8 +111,7 @@ button:hover {
 }
 
 .aboutAs > section > p{
-    padding: 2px 0px 0px 1px;
-    
+    padding: 2px 0px 0px 1px; 
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -149,8 +136,6 @@ button:hover {
     justify-content: start;
     width: 300px;
     height: 440px;
-    
-     
 }
 
 #fotoPeople{
@@ -178,7 +163,6 @@ button:hover {
     font-weight: 400;
     text-align: left;
     letter-spacing: 0.1px;
-    
 }
 
 .socialNetwork{
