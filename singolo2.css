@@ -144,8 +144,12 @@ button:hover {
 }
 
 .sectionInfoByPeople > section {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     width: 300px;
     height: 440px;
+    
      
 }
 
@@ -161,18 +165,29 @@ button:hover {
     font-family: "Lato";
     font-weight: 900;
     text-align: left;
+    margin-bottom: -3px;
 }
 
 .sectionInfoByPeople p {
     width: 300px;
     height: 57px;
-    font-size: 12px;
+    font-size: 11px;
     line-height: 22px;
     color: #767e9e;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    letter-spacing: 0.1px;
+    
 }
+
+.socialNetwork{
+    padding-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 152px;
+} 
 
 .socialNetwork>img{
     cursor: pointer;
