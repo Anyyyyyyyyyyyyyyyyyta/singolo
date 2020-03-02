@@ -7,15 +7,19 @@ body{
 .containerGetAQuote{
     width: 1020px;
     background-color: #f06c64;
+    display: flex;
+    flex-direction: column;
 }
     
 .getAQuote{
     width: 940px;
     height: 648px;
+    margin: 0 auto;
     background-color: #f06c64;
 }
 
-.getAQuote > section >h1{
+.getAQuote > section > h1{
+    padding-top: 43px;
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
@@ -25,6 +29,7 @@ body{
 }
 
 .getAQuote > section > p{
+    padding-top: 2px;
     width: 940px;
     height: 57px;
     font-size: 18px;
@@ -35,15 +40,23 @@ body{
     text-align: left;
 }
 
+#formAndInformation{
+    display: flex;
+    flex-direction: row;
+}
+
 form {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 26px;
     font-size: 12px;
     line-height: 22px;
     color: #f48c8f;
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
-    /* width: 1020px; */
-    /* height: 648px; */
     background-color: #f06c64;
 }
 
@@ -52,9 +65,32 @@ input{
     height: 38px;
     border-radius: 5px;
     background-color: #d6564f;
+    border:  none;
+    cursor: pointer;
+}
+
+textarea {
+    width: 614px;
+    height: 202px;
+    border-radius: 5px;
+    background-color: #d6564f;
+}
+
+#submit{
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #d6564f;
+    font-size: 14px;
+    line-height: 30px;
 }
 
 .information{
+    padding-top: 9px;
+    padding-left: 20px;
 
 }
 
@@ -76,10 +112,51 @@ input{
     font-family: "Lato";
     font-weight: 400;
     text-align: left;
+    margin-top: -8px;
+}
+
+.contact p{
+    text-align: left;
+  
+}
+
+.contactInfo {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: -2px 0px 0px 2px;    
+}
+
+.contactInfo > article {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.contactInfo  img {
+    height: 11px;
+}
+
+.contactInfo  p {
+    padding-left: 11px;
+    
 }
 
 footer{
     width: 1020px;
     height: 76px;
     background-color: #2d303a;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+footer > section > p{
+    font-size: 12px;
+    line-height: 22px;
+    color: #f0d8d9;
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: left;
 }
