@@ -128,29 +128,35 @@ textarea {
 }
 
 .contactInfo {
-    border: 1px solid black;
-     height: 50px;
-    display: flex;
-    flex-flow:row wrap;
+    height: 65px;
     margin: -2px 0px 0px 2px;  
-    width: 140px;  
+    width: 145px;  
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+   
+    
 }
 
 .contactInfo > article {
+    padding-bottom: 5px;
+    margin-left: -10px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
+    align-self: center;
     height: 15px;
-    
 }
 
 .contactInfo  img {
     height: 11px;
-    /* padding-top: 16px; */
+    padding-left: 5px;
 }
 
 .contactInfo  p {
     padding-left: 11px; 
     margin-top: -5px;
+    width:120px;
+    text-align: left;
 }
 
 .footerDiv {
@@ -180,7 +186,6 @@ footer > section > p{
     font-weight: 300;
     text-align: left;
 
-    /* padding-left: 30px; */
 }
 
 #socialNetwork{
@@ -189,7 +194,7 @@ footer > section > p{
     justify-content: space-between;
     width: 152px;
     height: 32px;
-    /* padding-right: 40px; */
+
 }
 
 #socialNetwork > img {
