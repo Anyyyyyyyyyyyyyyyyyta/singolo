@@ -307,7 +307,7 @@ button:hover {
     width: 940px;
 }
 
-.aboutAs > section > h1{
+#aboutAs > section > h1{
     padding-top: 43px;
     font-size: 30px;
     line-height: 18px;
@@ -317,7 +317,7 @@ button:hover {
     text-align: left;
 }
 
-.aboutAs > section > p{
+#aboutAs > section > p{
     padding: 2px 0px 0px 1px; 
     width: 940px;
     height: 57px;
